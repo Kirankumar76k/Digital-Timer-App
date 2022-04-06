@@ -1,0 +1,118 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: roboto;
+}
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.digital-timer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .digital-timer-container {
+    flex-direction: column;
+  }
+}
+.timer-bg {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  height: 500px;
+  width: 500px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.inside-bg {
+  background-color: white;
+  border-radius: 100px;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.time {
+  color: #00d9f5;
+  font-size: 38px;
+  font-weight: 1000;
+  margin-bottom: 0px;
+  padding-top: 0px;
+}
+.time-status {
+  color: black;
+  font-weight: 600;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.digital-cls {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.pause-reset-container {
+  display: flex;
+  justify-content: space-between;
+}
+.pause-container {
+  display: flex;
+  justify-content: center;
+}
+.transparent-btn {
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+.small-icon {
+  height: 30px;
+  width: 30px;
+}
+.start-name {
+  font-size: 26px;
+  font-weight: 600;
+}
+.limit-name {
+  font-size: 14px;
+}
+.set-timer-container {
+  display: flex;
+}
+.count-container {
+  height: 40px;
+  width: 65px;
+  margin-left: 6px;
+  margin-right: 6px;
+  text-align: center;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  /* background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png'); */
+  background-image: linear-gradient(to right, #defafe, #00d9f5);
+  background-size: cover;
+}
+.btn2 {
+  font-size: 25px;
+}
+.count-name {
+  font-size: 20px;
+  font-weight: 500;
+}
