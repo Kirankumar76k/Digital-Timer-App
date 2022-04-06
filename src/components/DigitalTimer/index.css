@@ -73,6 +73,7 @@
 .pause-container {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .transparent-btn {
   border: 0px;

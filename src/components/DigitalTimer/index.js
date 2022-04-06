@@ -92,35 +92,35 @@ class DigitalTimer extends Component {
             </div>
             <div className="digital-cls">
               <div className="pause-reset-container">
-                <div className="pause-container">
-                  <button
-                    className="transparent-btn"
-                    type="button"
-                    onClick={this.onClickStartPauseBtn}
-                  >
-                    <img
-                      src={startPauseImg}
-                      alt={startPauseAlttext}
-                      className="small-icon"
-                    />
-                    <p className="start-name">{startPauseTxt}</p>
-                  </button>
-                </div>
-                <div className="pause-container">
-                  <button
-                    className="transparent-btn"
-                    type="button"
-                    onClick={this.onResetBtnClick}
-                  >
-                    <img
-                      src="https://assets.ccbp.in/frontend/react-js/reset-icon-img.png"
-                      alt="reset icon"
-                      className="small-icon"
-                    />
-                  </button>
-
+                {/* <div className="pause-conainert"> */}
+                <button
+                  className="transparent-btn pause-container"
+                  type="button"
+                  onClick={this.onClickStartPauseBtn}
+                >
+                  <img
+                    src={startPauseImg}
+                    alt={startPauseAlttext}
+                    className="small-icon"
+                  />
+                  <p className="start-name">{startPauseTxt}</p>
+                </button>
+                {/* </div> */}
+                {/* <div className="pause-container"> */}
+                <button
+                  className="transparent-btn pause-container"
+                  type="button"
+                  onClick={this.onResetBtnClick}
+                >
+                  <img
+                    src="https://assets.ccbp.in/frontend/react-js/reset-icon-img.png"
+                    alt="reset icon"
+                    className="small-icon"
+                  />
                   <p className="start-name">reset</p>
-                </div>
+                </button>
+
+                {/* </div> */}
               </div>
               <p className="limit-name">Set Timer limit</p>
               <div className="set-timer-container">
